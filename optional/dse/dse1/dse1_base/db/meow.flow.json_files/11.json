@@ -1,0 +1,13 @@
+{
+	"title" : "Timing Analyzer||Slow 1200mV 85C Model||Slow 1200mV 85C Model Fmax Summary",
+	"data" : {
+		"data" : [
+			{
+				"0" : "994.04 MHz",
+				"1" : "250.0 MHz",
+				"2" : "clk",
+				"3" : "limit due to minimum period restriction (max I/O toggle rate)"
+			}
+		]
+	}
+}

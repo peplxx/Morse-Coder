@@ -1,0 +1,17 @@
+Quartus Prime Archive log --	/home/user/Desktop/optional/dse/dse1/meow.qarlog
+
+Archive:	/home/user/Desktop/optional/dse/dse1/meow.qar
+Date:		Tue Nov 28 19:22:07 2023
+Quartus Prime		21.1.1 Build 850 06/23/2022 SJ Lite Edition
+
+	=========== Files Selected: ===========
+/home/user/Desktop/optional/keyboardScanner.v
+/home/user/Desktop/optional/meow.dse
+/home/user/Desktop/optional/meow.qpf
+/home/user/Desktop/optional/meow.qsf
+/home/user/Desktop/optional/meow.v
+/home/user/intelFPGA_lite/21.1/quartus/linux64/assignment_defaults.qdf
+	======= Total: 6 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

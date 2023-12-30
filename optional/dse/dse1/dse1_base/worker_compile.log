@@ -1,0 +1,279 @@
+Info: *******************************************************************
+Info: Running Quartus Prime Shell
+Info: Command: quartus_sh --flow compile meow.qsf
+Info: Quartus(args): compile meow.qsf
+Info: Project Name = /home/user/Desktop/optional/dse/dse1/dse1_base/meow
+Info: Revision Name = meow
+{"object_type": "report_status", "percent" : 0}
+Info: *******************************************************************
+Info: Running Quartus Prime Signal Tap
+Info: Command: quartus_stp meow -c meow
+Info: Quartus Prime Signal Tap was successful. 0 errors, 0 warnings
+{"object_type": "report_status", "percent" : 20}
+{"object_type": "report_status", "percent" : 20}
+{"object_type": "report_status", "percent" : 20}
+Info: *******************************************************************
+Info: Running Quartus Prime Analysis & Synthesis
+Info: Command: quartus_map --read_settings_files=off --write_settings_files=off meow -c meow
+{"object_type": "refresh_report"}
+Warning: Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+Info: Parallel compilation is enabled and will use 4 of the 4 processors detected
+Info: Found 1 design units, including 1 entities, in source file keyboardScanner.v
+{"object_type": "report_status", "percent" : 21}
+{"object_type": "report_status", "percent" : 22}
+{"object_type": "report_status", "percent" : 22}
+Warning: Using design file meow.v, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
+Info: Elaborating entity "meow" for the top level hierarchy
+{"object_type": "report_status", "percent" : 27}
+{"object_type": "report_status", "percent" : 28}
+{"object_type": "report_status", "percent" : 29}
+{"object_type": "report_status", "percent" : 28}
+{"object_type": "report_status", "percent" : 20}
+{"object_type": "report_status", "percent" : 25}
+{"object_type": "report_status", "percent" : 29}
+{"object_type": "report_status", "percent" : 28}
+{"object_type": "report_status", "percent" : 29}
+{"object_type": "report_status", "percent" : 32}
+{"object_type": "report_status", "percent" : 33}
+{"object_type": "report_status", "percent" : 33}
+{"object_type": "report_status", "percent" : 33}
+{"object_type": "report_status", "percent" : 33}
+{"object_type": "report_status", "percent" : 33}
+{"object_type": "report_status", "percent" : 34}
+{"object_type": "report_status", "percent" : 34}
+{"object_type": "report_status", "percent" : 34}
+{"object_type": "report_status", "percent" : 34}
+{"object_type": "report_status", "percent" : 34}
+{"object_type": "report_status", "percent" : 35}
+{"object_type": "report_status", "percent" : 35}
+{"object_type": "report_status", "percent" : 35}
+{"object_type": "report_status", "percent" : 35}
+{"object_type": "report_status", "percent" : 35}
+{"object_type": "report_status", "percent" : 36}
+Info: Timing-Driven Synthesis is running
+{"object_type": "report_status", "percent" : 36}
+{"object_type": "report_status", "percent" : 38}
+{"object_type": "report_status", "percent" : 38}
+Info: 4 registers lost all their fanouts during netlist optimizations.
+Info: Generated JSON formatted report files in /home/user/Desktop/optional/dse/dse1/dse1_base/db/meow.map.json_files/
+Info: Generated JSON formatted report files in /home/user/Desktop/optional/dse/dse1/dse1_base/db/meow.flow.json_files/
+{"object_type": "report_status", "percent" : 39}
+{"object_type": "report_status", "percent" : 39}
+Info: Generating hard_block partition "hard_block:auto_generated_inst"
+Info: Implemented 38 device resources after synthesis - the final resource count might be different
+Info: Generated JSON formatted report files in /home/user/Desktop/optional/dse/dse1/dse1_base/db/meow.map.json_files/
+Info: Generated JSON formatted report files in /home/user/Desktop/optional/dse/dse1/dse1_base/db/meow.flow.json_files/
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 2 warnings
+{"object_type": "report_status", "percent" : 40}
+{"object_type": "refresh_report"}
+{"object_type": "report_status", "percent" : 40}
+Info: *******************************************************************
+Info: Running Quartus Prime Fitter
+Info: Command: quartus_fit --read_settings_files=off --write_settings_files=off meow -c meow
+Info: qfit2_default_script.tcl version: #1
+Info: Project  = meow
+Info: Revision = meow
+{"object_type": "report_status", "percent" : 40}
+{"object_type": "refresh_report"}
+Warning: Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+Info: Parallel compilation is enabled and will use 4 of the 4 processors detected
+Info: Selected device 10M50DAF484C7G for design "meow"
+Info: Low junction temperature is 0 degrees C
+Info: High junction temperature is 85 degrees C
+Info: Fitter is performing an Auto Fit compilation, which may decrease Fitter effort to reduce compilation time
+Warning: Feature LogicLock is only available with a valid subscription license. You can purchase a software subscription to gain full access to this feature.
+{"object_type": "report_status", "percent" : 42}
+Info: Device migration not selected. If you intend to use device migration later, you may need to change the pin assignments as they may be incompatible with other devices
+Info: Fitter converted 8 user pins into dedicated programming pins
+Info: DATA[0] dual-purpose pin not reserved
+Info: Data[1]/ASDO dual-purpose pin not reserved
+Info: nCSO dual-purpose pin not reserved
+Info: DCLK dual-purpose pin not reserved
+{"object_type": "report_status", "percent" : 42}
+Warning: Some pins have incomplete I/O assignments. Refer to the I/O Assignment Warnings report for details
+{"object_type": "report_status", "percent" : 46}
+Critical Warning: Synopsys Design Constraints File file not found: 'meow.sdc'. A Synopsys Design Constraints File is required by the Timing Analyzer to get proper timing constraints. Without it, the Compiler will not properly optimize the design.
+Info: No user constrained base clocks found in the design
+Info: No user constrained clock uncertainty found in the design. Calling "derive_clock_uncertainty"
+Info: The derive_clock_uncertainty command did not apply clock uncertainty to any clock-to-clock transfers.
+Info: Timing requirements not specified -- quality metrics such as performance may be sacrificed to reduce compilation time.
+Info: Automatically promoted node clk~input (placed in PIN P11 (CLK7p, DIFFIO_TX_RX_B20p, DIFFOUT_B20p, High_Speed))
+{"object_type": "report_status", "percent" : 43}
+{"object_type": "report_status", "percent" : 46}
+Info: Starting register packing
+Extra Info: Performing register packing on registers with non-logic cell location assignments
+Extra Info: Completed register packing on registers with non-logic cell location assignments
+Extra Info: Started Fast Input/Output/OE register processing
+Extra Info: Finished Fast Input/Output/OE register processing
+Extra Info: Start inferring scan chains for DSP blocks
+Extra Info: Inferring scan chains for DSP blocks is complete
+Extra Info: Moving registers into I/O cells, Multiplier Blocks, and RAM blocks to improve timing and density
+Extra Info: Finished moving registers into I/O cells, Multiplier Blocks, and RAM blocks
+Info: Finished register packing
+{"object_type": "report_status", "percent" : 43}
+{"object_type": "report_status", "percent" : 43}
+Warning: Ignored locations or region assignments to the following nodes
+Info: Fitter preparation operations ending: elapsed time is 00:00:01
+Info: Fitter has disabled Advanced Physical Optimization because it is not supported for the current family.
+{"object_type": "report_status", "percent" : 44}
+{"object_type": "report_status", "percent" : 46}
+Info: Fitter placement preparation operations beginning
+{"object_type": "report_status", "percent" : 44}
+{"object_type": "report_status", "percent" : 44}
+{"object_type": "report_status", "percent" : 45}
+{"object_type": "report_status", "percent" : 46}
+Info: Fitter placement preparation operations ending: elapsed time is 00:00:00
+Info: Fitter placement operations beginning
+{"object_type": "report_status", "percent" : 46}
+{"object_type": "report_status", "percent" : 46}
+{"object_type": "report_status", "percent" : 47}
+{"object_type": "report_status", "percent" : 47}
+{"object_type": "report_status", "percent" : 48}
+{"object_type": "report_status", "percent" : 48}
+{"object_type": "report_status", "percent" : 48}
+{"object_type": "report_status", "percent" : 48}
+{"object_type": "report_status", "percent" : 49}
+{"object_type": "report_status", "percent" : 49}
+{"object_type": "report_status", "percent" : 49}
+{"object_type": "report_status", "percent" : 49}
+{"object_type": "report_status", "percent" : 49}
+{"object_type": "report_status", "percent" : 50}
+{"object_type": "report_status", "percent" : 50}
+{"object_type": "report_status", "percent" : 50}
+{"object_type": "report_status", "percent" : 51}
+{"object_type": "report_status", "percent" : 52}
+{"object_type": "report_status", "percent" : 53}
+{"object_type": "report_status", "percent" : 53}
+{"object_type": "report_status", "percent" : 54}
+{"object_type": "report_status", "percent" : 50}
+{"object_type": "report_status", "percent" : 51}
+{"object_type": "report_status", "percent" : 51}
+{"object_type": "report_status", "percent" : 52}
+{"object_type": "report_status", "percent" : 52}
+{"object_type": "report_status", "percent" : 53}
+Info: Fitter placement was successful
+Info: Fitter placement operations ending: elapsed time is 00:00:03
+{"object_type": "report_status", "percent" : 54}
+{"object_type": "report_status", "percent" : 46}
+Info: Fitter routing operations beginning
+{"object_type": "report_status", "percent" : 54}
+Info: Router estimated average interconnect usage is 0% of the available device resources
+{"object_type": "report_status", "percent" : 54}
+{"object_type": "report_status", "percent" : 55}
+Info: The Fitter performed an Auto Fit compilation.  Optimizations were skipped to reduce compilation time.
+{"object_type": "report_status", "percent" : 56}
+Info: Fitter routing operations ending: elapsed time is 00:00:00
+Info: Total time spent on timing analysis during the Fitter is 0.13 seconds.
+{"object_type": "report_status", "percent" : 56}
+Info: Started post-fitting delay annotation
+{"object_type": "report_status", "percent" : 58}
+{"object_type": "report_status", "percent" : 58}
+{"object_type": "report_status", "percent" : 58}
+{"object_type": "report_status", "percent" : 58}
+{"object_type": "report_status", "percent" : 59}
+{"object_type": "report_status", "percent" : 59}
+{"object_type": "report_status", "percent" : 59}
+Info: Delay annotation completed successfully
+Info: Started post-fitting delay annotation
+{"object_type": "report_status", "percent" : 58}
+{"object_type": "report_status", "percent" : 58}
+{"object_type": "report_status", "percent" : 58}
+{"object_type": "report_status", "percent" : 59}
+{"object_type": "report_status", "percent" : 59}
+{"object_type": "report_status", "percent" : 59}
+Info: Delay annotation completed successfully
+{"object_type": "report_status", "percent" : 57}
+{"object_type": "report_status", "percent" : 59}
+Info: Fitter post-fit operations ending: elapsed time is 00:00:01
+Warning: Found invalid Fitter assignments. See the Ignored Assignments panel in the Fitter Compilation Report for more information.
+Info: Generated suppressed messages file /home/user/Desktop/optional/dse/dse1/dse1_base/output_files/meow.fit.smsg
+Info: Generated JSON formatted report files in /home/user/Desktop/optional/dse/dse1/dse1_base/db/meow.fit.json_files/
+Info: Generated JSON formatted report files in /home/user/Desktop/optional/dse/dse1/dse1_base/db/meow.flow.json_files/
+Info: Quartus Prime Fitter was successful. 0 errors, 28 warnings
+{"object_type": "report_status", "percent" : 60}
+{"object_type": "refresh_report"}
+{"object_type": "report_status", "percent" : 60}
+{"object_type": "report_status", "percent" : 60}
+Info: *******************************************************************
+Info: Running Quartus Prime Assembler
+Info: Command: quartus_asm --read_settings_files=off --write_settings_files=off meow -c meow
+{"object_type": "refresh_report"}
+Warning: Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+{"object_type": "report_status", "percent" : 61}
+{"object_type": "report_status", "percent" : 62}
+{"object_type": "report_status", "percent" : 66}
+{"object_type": "report_status", "percent" : 68}
+{"object_type": "report_status", "percent" : 70}
+{"object_type": "report_status", "percent" : 74}
+{"object_type": "report_status", "percent" : 76}
+Info: Writing out detailed assembly data for power analysis
+Info: Assembler is generating device programming files
+{"object_type": "report_status", "percent" : 78}
+Info: Quartus Prime Assembler was successful. 0 errors, 1 warning
+{"object_type": "report_status", "percent" : 80}
+{"object_type": "refresh_report"}
+Info: Skipped module Power Analyzer due to the assignment FLOW_ENABLE_POWER_ANALYZER
+{"object_type": "report_status", "percent" : 80}
+Info: *******************************************************************
+Info: Running Quartus Prime Timing Analyzer
+Info: Command: quartus_sta meow -c meow
+Info: qsta_default_script.tcl version: #1
+{"object_type": "report_status", "percent" : 80}
+Warning: Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+Info: Parallel compilation is enabled and will use 4 of the 4 processors detected
+Info: Low junction temperature is 0 degrees C
+Info: High junction temperature is 85 degrees C
+{"object_type": "report_status", "percent" : 84}
+Critical Warning: Synopsys Design Constraints File file not found: 'meow.sdc'. A Synopsys Design Constraints File is required by the Timing Analyzer to get proper timing constraints. Without it, the Compiler will not properly optimize the design.
+Info: No user constrained base clocks found in the design. Calling "derive_clocks -period 1.0"
+Info: Deriving Clocks
+Info: No user constrained clock uncertainty found in the design. Calling "derive_clock_uncertainty"
+Info: Deriving Clock Uncertainty. Please refer to report_sdc in the Timing Analyzer to see clock uncertainties.
+Info: Found TIMING_ANALYZER_REPORT_SCRIPT_INCLUDE_DEFAULT_ANALYSIS = ON
+Info: Analyzing Slow 1200mV 85C Model
+Info: Can't run Report Timing Closure Recommendations. The current device family is not supported.
+Critical Warning: Timing requirements not met
+Info: Worst-case setup slack is -0.006
+Info: Worst-case hold slack is 0.412
+Info: No Recovery paths to report
+Info: No Removal paths to report
+Info: Worst-case minimum pulse width slack is -3.000
+Info: Report Metastability: Found 8 synchronizer chains.
+Info: Analyzing Slow 1200mV 0C Model
+Info: Started post-fitting delay annotation
+{"object_type": "report_status", "percent" : 90}
+{"object_type": "report_status", "percent" : 92}
+{"object_type": "report_status", "percent" : 94}
+{"object_type": "report_status", "percent" : 92}
+{"object_type": "report_status", "percent" : 96}
+{"object_type": "report_status", "percent" : 98}
+{"object_type": "report_status", "percent" : 99}
+Info: Delay annotation completed successfully
+Info: Deriving Clock Uncertainty. Please refer to report_sdc in the Timing Analyzer to see clock uncertainties.
+Info: Worst-case setup slack is 0.082
+Info: Worst-case hold slack is 0.377
+Info: No Recovery paths to report
+Info: No Removal paths to report
+Critical Warning: Timing requirements not met
+Info: Worst-case minimum pulse width slack is -3.000
+Info: Report Metastability: Found 8 synchronizer chains.
+Info: Analyzing Fast 1200mV 0C Model
+Info: Deriving Clock Uncertainty. Please refer to report_sdc in the Timing Analyzer to see clock uncertainties.
+Info: Worst-case setup slack is 0.578
+Info: Worst-case hold slack is 0.163
+Info: No Recovery paths to report
+Info: No Removal paths to report
+Critical Warning: Timing requirements not met
+Info: Worst-case minimum pulse width slack is -3.000
+Info: Report Metastability: Found 8 synchronizer chains.
+Info: Design is not fully constrained for setup requirements
+Info: Design is not fully constrained for hold requirements
+Info: Generated JSON formatted report files in /home/user/Desktop/optional/dse/dse1/dse1_base/db/meow.sta.json_files/
+Info: Generated JSON formatted report files in /home/user/Desktop/optional/dse/dse1/dse1_base/db/meow.flow.json_files/
+Info: Quartus Prime Timing Analyzer was successful. 0 errors, 5 warnings
+Info: Generated JSON formatted report files in /home/user/Desktop/optional/dse/dse1/dse1_base/db/meow.sta.json_files/
+{"object_type": "report_status", "percent" : 100}
+{"object_type": "refresh_report"}
+Info: Quartus Prime Full Compilation was successful. 0 errors, 36 warnings
+Info: Evaluation of Tcl script /home/user/intelFPGA_lite/21.1/quartus/common/tcl/internal/qsh_flow.tcl was successful
+Info: Quartus Prime Shell was successful. 0 errors, 36 warnings

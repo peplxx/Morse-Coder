@@ -1,0 +1,281 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "k1row[0]",
+					"strict" : false
+				},
+				{
+					"name" : "k1row[1]",
+					"strict" : false
+				},
+				{
+					"name" : "k1row[2]",
+					"strict" : false
+				},
+				{
+					"name" : "k1row[3]",
+					"strict" : false
+				},
+				{
+					"name" : "k2row[0]",
+					"strict" : false
+				},
+				{
+					"name" : "k2row[1]",
+					"strict" : false
+				},
+				{
+					"name" : "k2row[2]",
+					"strict" : false
+				},
+				{
+					"name" : "k2row[3]",
+					"strict" : false
+				},
+				{
+					"name" : "led[0]",
+					"strict" : false
+				},
+				{
+					"name" : "led[1]",
+					"strict" : false
+				},
+				{
+					"name" : "led[2]",
+					"strict" : false
+				},
+				{
+					"name" : "led[3]",
+					"strict" : false
+				},
+				{
+					"name" : "led[4]",
+					"strict" : false
+				},
+				{
+					"name" : "led[5]",
+					"strict" : false
+				},
+				{
+					"name" : "led[6]",
+					"strict" : false
+				},
+				{
+					"name" : "led[7]",
+					"strict" : false
+				},
+				{
+					"name" : "to1",
+					"strict" : false
+				},
+				{
+					"name" : "to2",
+					"strict" : false
+				},
+				{
+					"name" : "to3",
+					"strict" : false
+				},
+				{
+					"name" : "to4",
+					"strict" : false
+				},
+				{
+					"name" : "ti1",
+					"strict" : false
+				},
+				{
+					"name" : "ti2",
+					"strict" : false
+				},
+				{
+					"name" : "ti3",
+					"strict" : false
+				},
+				{
+					"name" : "ds1[0]",
+					"strict" : false
+				},
+				{
+					"name" : "ds1[1]",
+					"strict" : false
+				},
+				{
+					"name" : "ds1[2]",
+					"strict" : false
+				},
+				{
+					"name" : "ds1[3]",
+					"strict" : false
+				},
+				{
+					"name" : "ds1[4]",
+					"strict" : false
+				},
+				{
+					"name" : "ds1[5]",
+					"strict" : false
+				},
+				{
+					"name" : "ds1[6]",
+					"strict" : false
+				},
+				{
+					"name" : "ds2[0]",
+					"strict" : false
+				},
+				{
+					"name" : "ds2[1]",
+					"strict" : false
+				},
+				{
+					"name" : "ds2[2]",
+					"strict" : false
+				},
+				{
+					"name" : "ds2[3]",
+					"strict" : false
+				},
+				{
+					"name" : "ds2[4]",
+					"strict" : false
+				},
+				{
+					"name" : "ds2[5]",
+					"strict" : false
+				},
+				{
+					"name" : "ds2[6]",
+					"strict" : false
+				},
+				{
+					"name" : "ds2[7]",
+					"strict" : false
+				},
+				{
+					"name" : "sw98[1]",
+					"strict" : false
+				},
+				{
+					"name" : "switches[0]",
+					"strict" : false
+				},
+				{
+					"name" : "switches[4]",
+					"strict" : false
+				},
+				{
+					"name" : "switches[7]",
+					"strict" : false
+				},
+				{
+					"name" : "switches[5]",
+					"strict" : false
+				},
+				{
+					"name" : "switches[6]",
+					"strict" : false
+				},
+				{
+					"name" : "switches[1]",
+					"strict" : false
+				},
+				{
+					"name" : "switches[3]",
+					"strict" : false
+				},
+				{
+					"name" : "switches[2]",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "k2col[3]",
+					"strict" : false
+				},
+				{
+					"name" : "k2col[0]",
+					"strict" : false
+				},
+				{
+					"name" : "k2col[1]",
+					"strict" : false
+				},
+				{
+					"name" : "k2col[2]",
+					"strict" : false
+				},
+				{
+					"name" : "k1col[0]",
+					"strict" : false
+				},
+				{
+					"name" : "k1col[1]",
+					"strict" : false
+				},
+				{
+					"name" : "k1col[2]",
+					"strict" : false
+				},
+				{
+					"name" : "k1col[3]",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tms",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tck",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tdi",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tdo",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_lai_1_0",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_lai_1_1",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_lai_1_2",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_lai_1_3",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_lai_1_4",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_lai_1_5",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_lai_1_6",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_lai_1_7",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

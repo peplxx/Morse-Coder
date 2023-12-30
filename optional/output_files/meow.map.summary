@@ -1,0 +1,16 @@
+Analysis & Synthesis Status : Successful - Sat Dec 16 13:02:30 2023
+Quartus Prime Version : 21.1.1 Build 850 06/23/2022 SJ Lite Edition
+Revision Name : meow
+Top-level Entity Name : meow
+Family : MAX 10
+Total logic elements : 404
+    Total combinational functions : 368
+    Dedicated logic registers : 158
+Total registers : 158
+Total pins : 69
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
+UFM blocks : 0
+ADC blocks : 0

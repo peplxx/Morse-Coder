@@ -1,0 +1,41 @@
+|meow
+l1 <= l1~reg0.DB_MAX_OUTPUT_PORT_TYPE
+l2 <= l2~reg0.DB_MAX_OUTPUT_PORT_TYPE
+l3 <= l3~reg0.DB_MAX_OUTPUT_PORT_TYPE
+l4 <= l4~reg0.DB_MAX_OUTPUT_PORT_TYPE
+l5 <= l5~reg0.DB_MAX_OUTPUT_PORT_TYPE
+l6 <= l6~reg0.DB_MAX_OUTPUT_PORT_TYPE
+l7 <= l7~reg0.DB_MAX_OUTPUT_PORT_TYPE
+l8 <= l8~reg0.DB_MAX_OUTPUT_PORT_TYPE
+col[0] => Equal0.IN3
+col[0] => keyCode[3].DATAIN
+col[1] => Equal0.IN2
+col[1] => keyCode[2].DATAIN
+col[2] => Equal0.IN1
+col[2] => keyCode[1].DATAIN
+col[3] => Equal0.IN0
+col[3] => keyCode[0].DATAIN
+clk => l8~reg0.CLK
+clk => l7~reg0.CLK
+clk => l6~reg0.CLK
+clk => l5~reg0.CLK
+clk => l4~reg0.CLK
+clk => l3~reg0.CLK
+clk => l2~reg0.CLK
+clk => l1~reg0.CLK
+clk => keyCode[0].CLK
+clk => keyCode[1].CLK
+clk => keyCode[2].CLK
+clk => keyCode[3].CLK
+clk => keyCode[4].CLK
+clk => keyCode[5].CLK
+clk => keyCode[6].CLK
+clk => keyCode[7].CLK
+clk => row[0].CLK
+clk => row[1].CLK
+clk => row[2].CLK
+clk => row[3].CLK
+clk => nextState~1.DATAIN
+clk => state~1.DATAIN
+
+

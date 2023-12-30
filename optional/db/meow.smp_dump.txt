@@ -1,0 +1,28 @@
+
+State Machine - |meow|keyboardDriver:driver2|nextState
+Name nextState.11 nextState.10 nextState.01 nextState.00 
+nextState.00 0 0 0 0 
+nextState.01 0 0 1 1 
+nextState.10 0 1 0 1 
+nextState.11 1 0 0 1 
+
+State Machine - |meow|keyboardDriver:driver2|state
+Name state.11 state.10 state.01 state.00 
+state.00 0 0 0 0 
+state.01 0 0 1 1 
+state.10 0 1 0 1 
+state.11 1 0 0 1 
+
+State Machine - |meow|keyboardDriver:driver1|nextState
+Name nextState.11 nextState.10 nextState.01 nextState.00 
+nextState.00 0 0 0 0 
+nextState.01 0 0 1 1 
+nextState.10 0 1 0 1 
+nextState.11 1 0 0 1 
+
+State Machine - |meow|keyboardDriver:driver1|state
+Name state.11 state.10 state.01 state.00 
+state.00 0 0 0 0 
+state.01 0 0 1 1 
+state.10 0 1 0 1 
+state.11 1 0 0 1 

@@ -1,0 +1,40 @@
+<session jtag_chain="USB-Blaster [1-2]" jtag_device="@1: 10M50DA(.|ES)/10M50DC (0x031050DD)">
+  <display_attributes active_instance="0" active_tab="0"/>
+  <instance compilation_mode="normal" entity_name="sld_multitap" is_auto_node="true" name="auto_lai_1" type="generic">
+    <node_ip_info instance_id="1" mfg_id="110" node_id="7" version="0"/>
+    <core_parameters bank_count="1" capture_mode="timing" crc_value="21E4" enable_auto_setup="false" enable_plug_run="false" max_freq="100" pin_count="8" power_up_state="tristate" tdm_rate="1"/>
+    <pins>
+      <pin io_standard="2.5 V" location="" name="altera_reserved_lai_1_0"/>
+      <pin io_standard="2.5 V" location="" name="altera_reserved_lai_1_1"/>
+      <pin io_standard="2.5 V" location="" name="altera_reserved_lai_1_2"/>
+      <pin io_standard="2.5 V" location="" name="altera_reserved_lai_1_3"/>
+      <pin io_standard="2.5 V" location="" name="altera_reserved_lai_1_4"/>
+      <pin io_standard="2.5 V" location="" name="altera_reserved_lai_1_5"/>
+      <pin io_standard="2.5 V" location="" name="altera_reserved_lai_1_6"/>
+      <pin io_standard="2.5 V" location="" name="altera_reserved_lai_1_7"/>
+    </pins>
+    <banks>
+      <bank name="Bank 0">
+        <signal name="l1" type="output"/>
+        <signal name="l2" type="output"/>
+        <signal name="l3" type="output"/>
+        <signal name="l4" type="output"/>
+        <signal name="l5" type="output"/>
+        <signal name="l6" type="output"/>
+        <signal name="l7" type="output"/>
+        <signal name="l8" type="output"/>
+      </bank>
+    </banks>
+    <alias_list>
+      <alias alias="l1" name="l1"/>
+      <alias alias="l2" name="l2"/>
+      <alias alias="l3" name="l3"/>
+      <alias alias="l4" name="l4"/>
+      <alias alias="l5" name="l5"/>
+      <alias alias="l6" name="l6"/>
+      <alias alias="l7" name="l7"/>
+      <alias alias="l8" name="l8"/>
+    </alias_list>
+    <display_attributes connected_bank="-1"/>
+  </instance>
+</session>

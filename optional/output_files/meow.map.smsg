@@ -1,0 +1,3 @@
+Warning (10268): Verilog HDL information at keyboardDriver.v(21): always construct contains both blocking and non-blocking assignments File: /home/user/QuartusProjects/optional/keyboardDriver.v Line: 21
+Warning (10268): Verilog HDL information at keyboardDriver.v(32): always construct contains both blocking and non-blocking assignments File: /home/user/QuartusProjects/optional/keyboardDriver.v Line: 32
+Warning (10268): Verilog HDL information at meow.v(42): always construct contains both blocking and non-blocking assignments File: /home/user/QuartusProjects/optional/meow.v Line: 42
